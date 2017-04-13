@@ -8,11 +8,11 @@
 
 		</div>
 		<div class="col-sm-3">
-			<span>Upload date: <%= @pic.created_at.localtime %></span>
-			<span>Uploaded by: <%= @pic.user_id %></span>
+			<p>Upload date: <%= @pic.created_at.localtime %></p>
+			<p>User ID: <%= @pic.user_id %></p>
 			<p>Name: <%= @pic.img_file_name %><br>
 			<p>Size: <%= @pic.img_file_size / 1024  %> KB<br><br>
-			<%= link_to @pic.img.url, class: "btn btn-primary" do %>
+			<%= link_to @pic.img.url, class: "btn btn-success" do %>
 				<i class="glyphicon glyphicon-download-alt"></i> Download
 			<% end %>
 		</div>
