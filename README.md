@@ -1,24 +1,18 @@
-# README
+# imgoose
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> A Ruby on Rails project
 
-Things you may want to cover:
+This project enables users to have similar functionality found on [imgur.com](https://imgur.com/). Signing up enables users to upload images, which in turn tracks the user id associated with it, its file name, the date created, the image size, and a large download button for a direct link to the image itself.
 
-* Ruby version
+There is also a public gallery page (Browse) which lists all the images uploaded by any user.
 
-* System dependencies
+## Build Setup
 
-* Configuration
+``` bash
+# install gems/dependencies
+$ bundle install
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# run build
+$ rails s
+```
+Live demo can be found on [here on Heroku](https://damp-basin-20315.herokuapp.com/). <br><br>
